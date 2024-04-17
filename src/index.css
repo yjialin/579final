@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* App.css */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calendar-container {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 300px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header button {
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.days-of-week {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.day-of-week {
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.date {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 5rem;
+	height: 6rem;
+  padding: 5px;
+  margin: 2px;
+  width: calc(100% / 7 - 6px);
+  text-align: center;
+  box-sizing: border-box; 
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	font-family: "Poppins", serif;
+	background: rgb(238, 174, 202);
+	background: radial-gradient(
+		circle,
+		rgba(238, 174, 202, 1) 0%,
+		rgba(148, 187, 233, 1) 100%
+	);
+} 
+.app-container {
+  display: flex;
+}
+
+.calendar-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.booking-container {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
